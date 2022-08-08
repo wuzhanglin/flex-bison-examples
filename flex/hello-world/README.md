@@ -11,15 +11,22 @@ flex hello-world.l
 # Set up C++ standard library and header path for clang
 export SDKROOT=$(xcrun --sdk macosx --show-sdk-path)
 
-# Build
+# Build with clang
 clang lex.yy.c -o hello-world
+
+# Or, build with gcc
+gcc lex.yy.c -o hello-world
 ```
 
 # Run
 
 ```bash
 ./hello-world
+```
 
+Output:
+
+```bash
 > abc
 > abc
 > 
