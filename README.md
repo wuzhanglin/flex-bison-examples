@@ -4,10 +4,9 @@ Some simple examples for flex and bison:
 
 ```bash
 .
-├── flex
-│   ├── 1. hello-world
-│   └── 2. word-counter
-└── word-counter
+└── flex
+    ├── hello-world
+    └── word-counter
 ```
 
 1. [flex&bison系列第一章：flex Hello World](https://blog.csdn.net/Zhanglin_Wu/article/details/126114017)
