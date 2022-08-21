@@ -1,6 +1,5 @@
 # Simple Calculator With Flex & Bison
 
-
 ## Build
 
 ```bash
