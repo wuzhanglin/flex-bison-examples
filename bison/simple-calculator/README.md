@@ -1,4 +1,4 @@
-https://www.jianshu.com/p/8da9ed3d30a7
+# Simple Calculator With Flex & Bison
 
 
 ## Build
@@ -15,10 +15,15 @@ gcc -o simple-calculator simple-calculator.tab.c simple-calculator.yy.c
 ./simple-calculator
 ```
 
-Output:
+Input:
 
 ```bash
 -2 + 3 * 4
+```
+
+Output:
+
+```bash
 = 10
 (Ctrl+D)
 ```
